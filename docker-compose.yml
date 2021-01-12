@@ -1,0 +1,33 @@
+version: '3.0'
+services:
+  webserver:
+    image: apache/airflow:1.10.14
+    build:
+      context: ./scripts
+      dockerfile: Dockerfile
+    volumes:
+      - ./airflow:/opt/airflow
+      - ./scripts:/opt/scripts
+    ports:
+      - "8080:8080"
+    deploy:
+      restart_policy:
+        condition: on-failure
+        max_attempts: 3
+    env_file:
+      ./airflow/env
+    entrypoint: /opt/airflow/entrypoint.sh
+  scheduler:
+    image: apache/airflow:1.10.14
+    command: ["scheduler"]
+    volumes:
+      - ./airflow:/opt/airflow
+    deploy:
+      restart_policy:
+        condition: on-failure
+        max_attempts: 3
+    env_file:
+      .airflow/env
+  
+    # command: -c "./opt/airflow/scripts/entrypoint.sh"
+    
