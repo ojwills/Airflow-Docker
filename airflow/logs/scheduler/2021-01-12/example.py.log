@@ -1,0 +1,658 @@
+[2021-01-12 23:59:29,335] {scheduler_job.py:181} INFO - Started process (PID=15) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:29,340] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:29,343] {logging_mixin.py:103} INFO - [2021-01-12 23:59:29,342] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:29,417] {logging_mixin.py:103} INFO - [2021-01-12 23:59:29,413] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:29,427] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:29,960] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.629 seconds
+[2021-01-12 23:59:30,014] {scheduler_job.py:181} INFO - Started process (PID=16) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:30,020] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:30,025] {logging_mixin.py:103} INFO - [2021-01-12 23:59:30,024] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:30,086] {logging_mixin.py:103} INFO - [2021-01-12 23:59:30,081] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:30,095] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:30,684] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.681 seconds
+[2021-01-12 23:59:30,719] {scheduler_job.py:181} INFO - Started process (PID=17) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:30,722] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:30,725] {logging_mixin.py:103} INFO - [2021-01-12 23:59:30,725] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:30,755] {logging_mixin.py:103} INFO - [2021-01-12 23:59:30,752] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:30,759] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:31,297] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.584 seconds
+[2021-01-12 23:59:31,355] {scheduler_job.py:181} INFO - Started process (PID=18) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:31,361] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:31,366] {logging_mixin.py:103} INFO - [2021-01-12 23:59:31,366] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:31,409] {logging_mixin.py:103} INFO - [2021-01-12 23:59:31,403] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:31,415] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:31,892] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.549 seconds
+[2021-01-12 23:59:31,958] {scheduler_job.py:181} INFO - Started process (PID=19) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:31,967] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:31,972] {logging_mixin.py:103} INFO - [2021-01-12 23:59:31,971] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:32,010] {logging_mixin.py:103} INFO - [2021-01-12 23:59:32,005] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:32,016] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:32,492] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.546 seconds
+[2021-01-12 23:59:32,546] {scheduler_job.py:181} INFO - Started process (PID=20) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:32,552] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:32,558] {logging_mixin.py:103} INFO - [2021-01-12 23:59:32,557] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:32,590] {logging_mixin.py:103} INFO - [2021-01-12 23:59:32,588] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:32,594] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:33,094] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.561 seconds
+[2021-01-12 23:59:33,141] {scheduler_job.py:181} INFO - Started process (PID=21) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:33,145] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:33,148] {logging_mixin.py:103} INFO - [2021-01-12 23:59:33,147] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:33,176] {logging_mixin.py:103} INFO - [2021-01-12 23:59:33,173] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:33,181] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:33,716] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.580 seconds
+[2021-01-12 23:59:33,773] {scheduler_job.py:181} INFO - Started process (PID=22) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:33,780] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:33,785] {logging_mixin.py:103} INFO - [2021-01-12 23:59:33,785] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:33,865] {logging_mixin.py:103} INFO - [2021-01-12 23:59:33,858] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:33,873] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:34,375] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.612 seconds
+[2021-01-12 23:59:34,419] {scheduler_job.py:181} INFO - Started process (PID=23) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:34,424] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:34,427] {logging_mixin.py:103} INFO - [2021-01-12 23:59:34,426] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:34,459] {logging_mixin.py:103} INFO - [2021-01-12 23:59:34,455] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:34,464] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:35,009] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.598 seconds
+[2021-01-12 23:59:35,092] {scheduler_job.py:181} INFO - Started process (PID=24) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:35,096] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:35,099] {logging_mixin.py:103} INFO - [2021-01-12 23:59:35,099] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:35,134] {logging_mixin.py:103} INFO - [2021-01-12 23:59:35,130] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:35,138] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:35,838] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.755 seconds
+[2021-01-12 23:59:35,892] {scheduler_job.py:181} INFO - Started process (PID=25) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:35,908] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:35,937] {logging_mixin.py:103} INFO - [2021-01-12 23:59:35,936] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:35,979] {logging_mixin.py:103} INFO - [2021-01-12 23:59:35,975] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:35,987] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:36,573] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.689 seconds
+[2021-01-12 23:59:36,630] {scheduler_job.py:181} INFO - Started process (PID=26) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:36,642] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:36,647] {logging_mixin.py:103} INFO - [2021-01-12 23:59:36,647] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:36,683] {logging_mixin.py:103} INFO - [2021-01-12 23:59:36,678] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:36,690] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:37,294] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.675 seconds
+[2021-01-12 23:59:37,339] {scheduler_job.py:181} INFO - Started process (PID=27) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:37,343] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:37,346] {logging_mixin.py:103} INFO - [2021-01-12 23:59:37,345] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:37,386] {logging_mixin.py:103} INFO - [2021-01-12 23:59:37,381] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:37,392] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:37,941] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.608 seconds
+[2021-01-12 23:59:37,998] {scheduler_job.py:181} INFO - Started process (PID=28) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:38,004] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:38,007] {logging_mixin.py:103} INFO - [2021-01-12 23:59:38,006] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:38,043] {logging_mixin.py:103} INFO - [2021-01-12 23:59:38,040] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:38,047] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:38,549] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.562 seconds
+[2021-01-12 23:59:38,604] {scheduler_job.py:181} INFO - Started process (PID=29) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:38,608] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:38,612] {logging_mixin.py:103} INFO - [2021-01-12 23:59:38,611] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:38,647] {logging_mixin.py:103} INFO - [2021-01-12 23:59:38,643] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:38,653] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:39,208] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.609 seconds
+[2021-01-12 23:59:39,260] {scheduler_job.py:181} INFO - Started process (PID=30) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:39,266] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:39,268] {logging_mixin.py:103} INFO - [2021-01-12 23:59:39,268] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:39,299] {logging_mixin.py:103} INFO - [2021-01-12 23:59:39,296] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:39,304] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:39,804] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.549 seconds
+[2021-01-12 23:59:40,009] {scheduler_job.py:181} INFO - Started process (PID=31) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:40,014] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:40,019] {logging_mixin.py:103} INFO - [2021-01-12 23:59:40,018] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:40,062] {logging_mixin.py:103} INFO - [2021-01-12 23:59:40,059] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:40,068] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:40,617] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.620 seconds
+[2021-01-12 23:59:40,662] {scheduler_job.py:181} INFO - Started process (PID=32) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:40,667] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:40,671] {logging_mixin.py:103} INFO - [2021-01-12 23:59:40,670] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:40,703] {logging_mixin.py:103} INFO - [2021-01-12 23:59:40,695] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:40,708] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:41,249] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.595 seconds
+[2021-01-12 23:59:41,307] {scheduler_job.py:181} INFO - Started process (PID=33) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:41,314] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:41,319] {logging_mixin.py:103} INFO - [2021-01-12 23:59:41,318] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:41,358] {logging_mixin.py:103} INFO - [2021-01-12 23:59:41,353] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:41,364] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:41,911] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.611 seconds
+[2021-01-12 23:59:41,959] {scheduler_job.py:181} INFO - Started process (PID=34) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:41,962] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:41,964] {logging_mixin.py:103} INFO - [2021-01-12 23:59:41,964] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:42,013] {logging_mixin.py:103} INFO - [2021-01-12 23:59:42,010] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:42,019] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:42,682] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.728 seconds
+[2021-01-12 23:59:42,730] {scheduler_job.py:181} INFO - Started process (PID=35) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:42,737] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:42,739] {logging_mixin.py:103} INFO - [2021-01-12 23:59:42,739] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:42,765] {logging_mixin.py:103} INFO - [2021-01-12 23:59:42,762] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:42,768] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:43,295] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.576 seconds
+[2021-01-12 23:59:43,346] {scheduler_job.py:181} INFO - Started process (PID=36) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:43,349] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:43,352] {logging_mixin.py:103} INFO - [2021-01-12 23:59:43,352] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:43,380] {logging_mixin.py:103} INFO - [2021-01-12 23:59:43,376] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:43,384] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:43,928] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.588 seconds
+[2021-01-12 23:59:43,975] {scheduler_job.py:181} INFO - Started process (PID=37) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:43,991] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:43,994] {logging_mixin.py:103} INFO - [2021-01-12 23:59:43,994] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:44,026] {logging_mixin.py:103} INFO - [2021-01-12 23:59:44,022] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:44,035] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:44,618] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.648 seconds
+[2021-01-12 23:59:44,661] {scheduler_job.py:181} INFO - Started process (PID=38) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:44,665] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:44,667] {logging_mixin.py:103} INFO - [2021-01-12 23:59:44,667] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:44,692] {logging_mixin.py:103} INFO - [2021-01-12 23:59:44,689] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:44,696] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:45,479] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.823 seconds
+[2021-01-12 23:59:45,523] {scheduler_job.py:181} INFO - Started process (PID=39) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:45,525] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:45,528] {logging_mixin.py:103} INFO - [2021-01-12 23:59:45,527] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:45,551] {logging_mixin.py:103} INFO - [2021-01-12 23:59:45,547] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:45,554] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:46,117] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.600 seconds
+[2021-01-12 23:59:46,173] {scheduler_job.py:181} INFO - Started process (PID=40) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:46,177] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:46,181] {logging_mixin.py:103} INFO - [2021-01-12 23:59:46,181] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:46,216] {logging_mixin.py:103} INFO - [2021-01-12 23:59:46,213] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:46,223] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:46,681] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.555 seconds
+[2021-01-12 23:59:46,722] {scheduler_job.py:181} INFO - Started process (PID=41) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:46,725] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:46,727] {logging_mixin.py:103} INFO - [2021-01-12 23:59:46,727] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:46,754] {logging_mixin.py:103} INFO - [2021-01-12 23:59:46,751] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:46,758] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:47,321] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.605 seconds
+[2021-01-12 23:59:47,398] {scheduler_job.py:181} INFO - Started process (PID=42) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:47,406] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:47,411] {logging_mixin.py:103} INFO - [2021-01-12 23:59:47,410] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:47,464] {logging_mixin.py:103} INFO - [2021-01-12 23:59:47,456] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:47,468] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:47,981] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.595 seconds
+[2021-01-12 23:59:48,033] {scheduler_job.py:181} INFO - Started process (PID=43) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:48,037] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:48,040] {logging_mixin.py:103} INFO - [2021-01-12 23:59:48,040] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:48,076] {logging_mixin.py:103} INFO - [2021-01-12 23:59:48,073] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:48,081] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:48,631] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.610 seconds
+[2021-01-12 23:59:48,677] {scheduler_job.py:181} INFO - Started process (PID=44) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:48,682] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:48,687] {logging_mixin.py:103} INFO - [2021-01-12 23:59:48,686] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:48,725] {logging_mixin.py:103} INFO - [2021-01-12 23:59:48,719] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:48,732] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:49,297] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.631 seconds
+[2021-01-12 23:59:49,361] {scheduler_job.py:181} INFO - Started process (PID=45) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:49,369] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:49,385] {logging_mixin.py:103} INFO - [2021-01-12 23:59:49,377] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:49,442] {logging_mixin.py:103} INFO - [2021-01-12 23:59:49,436] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:49,451] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:50,035] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.686 seconds
+[2021-01-12 23:59:50,365] {scheduler_job.py:181} INFO - Started process (PID=46) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:50,370] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:50,373] {logging_mixin.py:103} INFO - [2021-01-12 23:59:50,372] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:50,412] {logging_mixin.py:103} INFO - [2021-01-12 23:59:50,408] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:50,417] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:51,001] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.649 seconds
+[2021-01-12 23:59:51,046] {scheduler_job.py:181} INFO - Started process (PID=47) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:51,050] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:51,058] {logging_mixin.py:103} INFO - [2021-01-12 23:59:51,058] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:51,089] {logging_mixin.py:103} INFO - [2021-01-12 23:59:51,086] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:51,094] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:51,647] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.606 seconds
+[2021-01-12 23:59:51,695] {scheduler_job.py:181} INFO - Started process (PID=48) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:51,698] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:51,701] {logging_mixin.py:103} INFO - [2021-01-12 23:59:51,700] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:51,736] {logging_mixin.py:103} INFO - [2021-01-12 23:59:51,730] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:51,741] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:52,253] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.563 seconds
+[2021-01-12 23:59:52,307] {scheduler_job.py:181} INFO - Started process (PID=49) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:52,312] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:52,315] {logging_mixin.py:103} INFO - [2021-01-12 23:59:52,315] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:52,345] {logging_mixin.py:103} INFO - [2021-01-12 23:59:52,342] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:52,350] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:52,914] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.613 seconds
+[2021-01-12 23:59:52,962] {scheduler_job.py:181} INFO - Started process (PID=50) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:52,968] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:52,970] {logging_mixin.py:103} INFO - [2021-01-12 23:59:52,970] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:52,999] {logging_mixin.py:103} INFO - [2021-01-12 23:59:52,997] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:53,004] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:53,535] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.579 seconds
+[2021-01-12 23:59:53,585] {scheduler_job.py:181} INFO - Started process (PID=51) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:53,590] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:53,593] {logging_mixin.py:103} INFO - [2021-01-12 23:59:53,592] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:53,619] {logging_mixin.py:103} INFO - [2021-01-12 23:59:53,615] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:53,625] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:54,183] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.607 seconds
+[2021-01-12 23:59:54,244] {scheduler_job.py:181} INFO - Started process (PID=52) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:54,249] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:54,251] {logging_mixin.py:103} INFO - [2021-01-12 23:59:54,251] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:54,287] {logging_mixin.py:103} INFO - [2021-01-12 23:59:54,280] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:54,292] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:54,829] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.595 seconds
+[2021-01-12 23:59:54,878] {scheduler_job.py:181} INFO - Started process (PID=53) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:54,881] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:54,884] {logging_mixin.py:103} INFO - [2021-01-12 23:59:54,884] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:54,906] {logging_mixin.py:103} INFO - [2021-01-12 23:59:54,903] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:54,909] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:55,482] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.610 seconds
+[2021-01-12 23:59:55,533] {scheduler_job.py:181} INFO - Started process (PID=54) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:55,537] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:55,541] {logging_mixin.py:103} INFO - [2021-01-12 23:59:55,540] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:55,564] {logging_mixin.py:103} INFO - [2021-01-12 23:59:55,562] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:55,567] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:56,071] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.550 seconds
+[2021-01-12 23:59:56,127] {scheduler_job.py:181} INFO - Started process (PID=55) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:56,131] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:56,134] {logging_mixin.py:103} INFO - [2021-01-12 23:59:56,133] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:56,164] {logging_mixin.py:103} INFO - [2021-01-12 23:59:56,161] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:56,169] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:56,690] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.571 seconds
+[2021-01-12 23:59:56,754] {scheduler_job.py:181} INFO - Started process (PID=56) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:56,757] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:56,759] {logging_mixin.py:103} INFO - [2021-01-12 23:59:56,759] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:56,787] {logging_mixin.py:103} INFO - [2021-01-12 23:59:56,784] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:56,790] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:57,291] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.542 seconds
+[2021-01-12 23:59:57,341] {scheduler_job.py:181} INFO - Started process (PID=57) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:57,345] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:57,350] {logging_mixin.py:103} INFO - [2021-01-12 23:59:57,349] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:57,383] {logging_mixin.py:103} INFO - [2021-01-12 23:59:57,377] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:57,388] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:57,939] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.604 seconds
+[2021-01-12 23:59:57,988] {scheduler_job.py:181} INFO - Started process (PID=58) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:57,992] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:57,995] {logging_mixin.py:103} INFO - [2021-01-12 23:59:57,995] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:58,031] {logging_mixin.py:103} INFO - [2021-01-12 23:59:58,024] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:58,046] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:58,560] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.578 seconds
+[2021-01-12 23:59:58,608] {scheduler_job.py:181} INFO - Started process (PID=59) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:58,613] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:58,618] {logging_mixin.py:103} INFO - [2021-01-12 23:59:58,617] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:58,665] {logging_mixin.py:103} INFO - [2021-01-12 23:59:58,662] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:58,668] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:59,171] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.574 seconds
+[2021-01-12 23:59:59,213] {scheduler_job.py:181} INFO - Started process (PID=60) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:59,215] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:59,218] {logging_mixin.py:103} INFO - [2021-01-12 23:59:59,217] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:59,241] {logging_mixin.py:103} INFO - [2021-01-12 23:59:59,238] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:59,244] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-12 23:59:59,863] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.656 seconds
+[2021-01-12 23:59:59,903] {scheduler_job.py:181} INFO - Started process (PID=61) to work on /opt/airflow/dags/example.py
+[2021-01-12 23:59:59,906] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-12 23:59:59,908] {logging_mixin.py:103} INFO - [2021-01-12 23:59:59,908] {dagbag.py:440} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-12 23:59:59,934] {logging_mixin.py:103} INFO - [2021-01-12 23:59:59,932] {dagbag.py:297} ERROR - Failed to import: /opt/airflow/dags/example.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example.py", line 6, in <module>
+    from scripts.test import run_pipeline
+ModuleNotFoundError: No module named 'scripts.test'
+[2021-01-12 23:59:59,940] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/example.py
+[2021-01-13 00:00:00,741] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/example.py took 0.842 seconds
