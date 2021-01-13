@@ -1,0 +1,12 @@
+language: python
+python: 3.7
+os: linux
+install: pip install tox-travis
+jobs:
+  include:
+  - stage: "tests"
+    name: "unit tests"
+    script: tox -e unit
+branches:
+  only:
+  - master
