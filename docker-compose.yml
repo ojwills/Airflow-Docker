@@ -48,6 +48,38 @@ services:
     command: ["scheduler"]
     networks:
       - airflow
+  flower:
+    build:
+      context: .
+    ports:
+      - 5555:5555
+    volumes:
+      - ./airflow/logs:/opt/airflow/logs
+    environment:
+      - PYTHONPATH=/opt/airflow
+    env_file:
+      - .env  
+    deploy:
+      restart_policy:
+        condition: on-failure
+        max_attempts: 3
+    command: flower
+    networks:
+      - airflow
+  worker:
+    build:
+      context: .
+    environment:
+      - PYTHONPATH=/opt/airflow
+    env_file:
+      - .env
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./airflow/logs:/opt/airflow/logs
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: worker
+    depends_on:
+      - scheduler
   initdb:
     build:
       context: .
