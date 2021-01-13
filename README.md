@@ -12,4 +12,8 @@
 3. Install dependencies with pip-sync
 
 #Running tests
-1. python -m pytest
+1. All tests: python -m pytest 
+2. All unit tests: python -m pytest -v -k "not integration_test"
+3. All integration tests: python -m pytest v -k "integration_test"
+4. Tests in a directory: python -m pytest directory/
+

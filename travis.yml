@@ -7,6 +7,5 @@ jobs:
   - stage: "tests"
     name: "unit tests"
     script: tox -e unit
-branches:
-  only:
-  - master
+on:
+  branch: master
