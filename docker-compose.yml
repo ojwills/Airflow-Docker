@@ -4,7 +4,6 @@ networks:
 
 services:
   webserver:
-    image: apache/airflow:1.10.14-python3.7
     build:
       context: .
     volumes:
@@ -29,7 +28,6 @@ services:
     networks:
       - airflow
   scheduler:
-    image: apache/airflow:1.10.14-python3.7
     build:
       context: .
     volumes:
@@ -51,7 +49,6 @@ services:
     networks:
       - airflow
   initdb:
-    image: apache/airflow:1.10.14
     build:
       context: .
     volumes:
@@ -67,7 +64,7 @@ services:
     deploy:
       restart_policy:
         condition: on-failure
-        max_attempts: 5
+        max_attempts: 3
     entrypoint: /opt/airflow/entrypoint.sh
     networks:
       - airflow

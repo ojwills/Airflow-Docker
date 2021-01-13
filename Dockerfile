@@ -1,15 +1,21 @@
-# FROM apache/airflow:latest-python3.7
-# USER root
-
-FROM apache/airflow:latest-python3.7
-
-#Create venv
-RUN python3 -m venv /opt/venv
-# Install dependencies:
-COPY requirements.txt .
-RUN . /opt/venv/bin/activate 
-RUN pip install --upgrade pip
+FROM apache/airflow:1.10.14-python3.7
+#USER root
+COPY ./requirements.txt ./
 RUN pip install -r requirements.txt
+
+
+
+# RUN python3 -m venv venv
+# RUN venv/bin/activate 
+
+# #Create venv
+# #RUN python3 -m venv /opt/venv
+# # Install dependencies:
+# COPY requirements.in .
+# #RUN . /opt/venv/bin/activate 
+# RUN pip install --upgrade pip
+# RUN pip install pip-tools
+# RUN pip-compile && pip-sync
 
 # # Run the application:
 # COPY myapp.py .

@@ -1,3 +1,2 @@
 #!/bin/sh
-if $DB_INIT; then
-    airflow db init
+if [ "$DB_INIT" = "True" ]; then airflow db init; fi
