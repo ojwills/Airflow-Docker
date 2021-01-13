@@ -4,9 +4,8 @@ networks:
 
 services:
   webserver:
-    image: apache/airflow:1.10.14
-    # build:
-    #   context: .
+    build:
+      context: .
     volumes:
       - ./airflow/dags:/opt/airflow/dags
       - ./airflow/logs:/opt/airflow/logs
@@ -29,9 +28,8 @@ services:
     networks:
       - airflow
   scheduler:
-    image: apache/airflow:1.10.14
-    # build:
-    #   context: .
+    build:
+      context: .
     volumes:
       - ./airflow/dags:/opt/airflow/dags
       - ./airflow/logs:/opt/airflow/logs
@@ -51,20 +49,23 @@ services:
     networks:
       - airflow
   initdb:
-    image: apache/airflow:1.10.14
-    env_file:
-      - .env
+    build:
+      context: .
     volumes:
       - ./airflow/dags:/opt/airflow/dags
       - ./airflow/logs:/opt/airflow/logs
+      - ./airflow/entrypoint.sh:/opt/airflow/entrypoint.sh
+      - ./scripts:/opt/airflow/scripts
       - /var/run/docker.sock:/var/run/docker.sock
-    entrypoint: /bin/bash
+    environment:
+      - PYTHONPATH=/opt/airflow
+    env_file:
+      - .env  
     deploy:
       restart_policy:
         condition: on-failure
-        delay: 8s
-        max_attempts: 5
-    command: -c "airflow db init"
+        max_attempts: 3
+    entrypoint: /opt/airflow/entrypoint.sh
     networks:
       - airflow
 

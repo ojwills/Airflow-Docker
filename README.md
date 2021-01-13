@@ -4,12 +4,20 @@
 3. pip install -r requirements.txt
 
 #Activating virtual environment
-2. source venv/bin/activate && set -a; source .env; set +a
+1. source venv/bin/activate && set -a; source .env; set +a
 
 #Adding new packages
 1. Add package name to requirements.in 
 2. Update requirements.txt with pip-compile
 3. Install dependencies with pip-sync
+
+#Running scripts (locally)
+1. python -m path.to.folder
+
+#Running Airflow
+1. As process: docker-compose up --build 
+2. As daemon: docker-compose up -d --build
+
 
 #Running tests
 1. All tests: python -m pytest 
