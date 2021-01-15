@@ -1,5 +1,7 @@
 pandas
+sqlalchemy
+python-dotenv
+jupyter
 pytest
-argcomplete
 tox
 

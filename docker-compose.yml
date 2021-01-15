@@ -3,6 +3,15 @@ networks:
   airflow:
 
 services:
+  redis:
+    image: redis:5.0.5
+    environment:
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+    ports:
+      - 6379:6379
+    networks:
+      - airflow
   webserver:
     build:
       context: .
@@ -12,9 +21,7 @@ services:
       - ./scripts:/opt/airflow/scripts
       - /var/run/docker.sock:/var/run/docker.sock
     ports:
-      - "8080:8080"
-    depends_on:
-      - initdb
+      - 8080:8080
     environment:
       - PYTHONPATH=/opt/airflow
     env_file:
@@ -25,6 +32,17 @@ services:
         max_attempts: 3
     command:
       ["webserver"]
+    healthcheck:
+      test: ["CMD-SHELL", "[ -f /opt/airflow/airflow-webserver.pid ]"]
+      interval: 30s
+      timeout: 30s
+      retries: 3
+    restart: always
+    depends_on:
+      initdb:
+        condition: service_started
+      redis:
+        condition: service_started
     networks:
       - airflow
   scheduler:
@@ -36,7 +54,8 @@ services:
       - ./scripts:/opt/airflow/scripts
       - /var/run/docker.sock:/var/run/docker.sock
     depends_on:
-      - webserver
+      webserver:
+        condition: service_started
     environment:
       - PYTHONPATH=/opt/airflow
     env_file:
@@ -64,11 +83,16 @@ services:
         condition: on-failure
         max_attempts: 3
     command: flower
+    depends_on:
+      redis:
+        condition: service_started  
     networks:
       - airflow
   worker:
     build:
       context: .
+    ports:
+      - 8793:8793
     environment:
       - PYTHONPATH=/opt/airflow
     env_file:
@@ -76,28 +100,38 @@ services:
     volumes:
       - ./airflow/dags:/opt/airflow/dags
       - ./airflow/logs:/opt/airflow/logs
+      - ./scripts:/opt/airflow/scripts
       - /var/run/docker.sock:/var/run/docker.sock
     command: worker
     depends_on:
-      - scheduler
+      scheduler:
+        condition: service_started
+    networks:
+      - airflow
   initdb:
     build:
       context: .
     volumes:
       - ./airflow/dags:/opt/airflow/dags
       - ./airflow/logs:/opt/airflow/logs
-      - ./airflow/entrypoint.sh:/opt/airflow/entrypoint.sh
       - ./scripts:/opt/airflow/scripts
+      - ./airflow/entrypoint.sh:/opt/airflow/entrypoint.sh
       - /var/run/docker.sock:/var/run/docker.sock
     environment:
       - PYTHONPATH=/opt/airflow
+      - ENABLED=False
     env_file:
-      - .env  
+      - .env
+    entrypoint: /opt/airflow/entrypoint.sh
+    healthcheck:
+      test: "exit 0"
     deploy:
       restart_policy:
         condition: on-failure
         max_attempts: 3
-    entrypoint: /opt/airflow/entrypoint.sh
+    depends_on:
+      redis:
+        condition: service_started
     networks:
       - airflow
 

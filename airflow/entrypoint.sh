@@ -1,2 +1,2 @@
 #!/bin/sh
-if [ "$DB_INIT" = "True" ]; then airflow db init; fi
+if [ "$ENABLED" = "True" ]; then airflow db init; fi

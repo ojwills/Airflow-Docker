@@ -9,3 +9,17 @@ jobs:
     script: tox -e unit
 on:
   branch: master
+
+# sudo: required
+# services:
+#   - docker
+# before_install:
+#   - docker build -t ojwills/airflow-test -f Dockerfile.dev .
+
+# script:
+#   - docker run ojwills/airflow-test --npm test -- --coverage 
+
+# after_success:
+#   - docker built -t ojwills/airflow
+# #repository uri 111373784667.dkr.ecr.eu-west-2.amazonaws.com/airflow
+

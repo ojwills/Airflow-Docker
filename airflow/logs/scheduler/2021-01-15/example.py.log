@@ -1,0 +1,170 @@
+[2021-01-15 10:13:50,202] {scheduler_job.py:155} INFO - Started process (PID=17) to work on /opt/airflow/dags/example.py
+[2021-01-15 10:13:50,211] {scheduler_job.py:1572} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-15 10:13:50,216] {logging_mixin.py:112} INFO - [2021-01-15 10:13:50,214] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-15 10:13:51,367] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['D2020_Dashboard']) retrieved from /opt/airflow/dags/example.py
+[2021-01-15 10:13:55,316] {scheduler_job.py:1288} INFO - Processing D2020_Dashboard
+[2021-01-15 10:13:56,205] {scheduler_job.py:1298} INFO - Created <DagRun D2020_Dashboard @ 2021-01-15T10:10:00+00:00: scheduled__2021-01-15T10:10:00+00:00, externally triggered: False>
+[2021-01-15 10:13:56,279] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-14 22:46:00+00:00: scheduled__2021-01-14T22:46:00+00:00, externally triggered: False>
+[2021-01-15 10:13:56,482] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-15 10:10:00+00:00: scheduled__2021-01-15T10:10:00+00:00, externally triggered: False>
+[2021-01-15 10:13:56,801] {scheduler_job.py:1651} INFO - Creating / updating <TaskInstance: D2020_Dashboard.run_pipeline 2021-01-14 22:46:00+00:00 [scheduled]> in ORM
+[2021-01-15 10:13:56,859] {scheduler_job.py:1651} INFO - Creating / updating <TaskInstance: D2020_Dashboard.test 2021-01-14 22:46:00+00:00 [scheduled]> in ORM
+[2021-01-15 10:13:56,923] {scheduler_job.py:1651} INFO - Creating / updating <TaskInstance: D2020_Dashboard.test 2021-01-15 10:10:00+00:00 [scheduled]> in ORM
+[2021-01-15 10:13:56,988] {scheduler_job.py:1651} INFO - Creating / updating <TaskInstance: D2020_Dashboard.run_pipeline 2021-01-15 10:10:00+00:00 [scheduled]> in ORM
+[2021-01-15 10:13:57,247] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/example.py took 7.045 seconds
+[2021-01-15 10:13:57,595] {scheduler_job.py:155} INFO - Started process (PID=18) to work on /opt/airflow/dags/example.py
+[2021-01-15 10:13:57,619] {scheduler_job.py:1572} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-15 10:13:57,625] {logging_mixin.py:112} INFO - [2021-01-15 10:13:57,624] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-15 10:13:58,723] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['D2020_Dashboard']) retrieved from /opt/airflow/dags/example.py
+[2021-01-15 10:13:59,991] {scheduler_job.py:1288} INFO - Processing D2020_Dashboard
+[2021-01-15 10:14:00,729] {scheduler_job.py:1298} INFO - Created <DagRun D2020_Dashboard @ 2021-01-15T10:12:00+00:00: scheduled__2021-01-15T10:12:00+00:00, externally triggered: False>
+[2021-01-15 10:14:00,817] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-14 22:46:00+00:00: scheduled__2021-01-14T22:46:00+00:00, externally triggered: False>
+[2021-01-15 10:14:00,974] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-15 10:10:00+00:00: scheduled__2021-01-15T10:10:00+00:00, externally triggered: False>
+[2021-01-15 10:14:01,295] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-15 10:12:00+00:00: scheduled__2021-01-15T10:12:00+00:00, externally triggered: False>
+[2021-01-15 10:14:01,639] {scheduler_job.py:1651} INFO - Creating / updating <TaskInstance: D2020_Dashboard.test 2021-01-15 10:12:00+00:00 [scheduled]> in ORM
+[2021-01-15 10:14:01,712] {scheduler_job.py:1651} INFO - Creating / updating <TaskInstance: D2020_Dashboard.run_pipeline 2021-01-15 10:12:00+00:00 [scheduled]> in ORM
+[2021-01-15 10:14:01,959] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/example.py took 4.366 seconds
+[2021-01-15 10:14:02,724] {scheduler_job.py:155} INFO - Started process (PID=27) to work on /opt/airflow/dags/example.py
+[2021-01-15 10:14:02,763] {scheduler_job.py:1572} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-15 10:14:02,773] {logging_mixin.py:112} INFO - [2021-01-15 10:14:02,773] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-15 10:14:08,695] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['D2020_Dashboard']) retrieved from /opt/airflow/dags/example.py
+[2021-01-15 10:14:11,064] {scheduler_job.py:1288} INFO - Processing D2020_Dashboard
+[2021-01-15 10:14:11,563] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-14 22:46:00+00:00: scheduled__2021-01-14T22:46:00+00:00, externally triggered: False>
+[2021-01-15 10:14:12,077] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-15 10:10:00+00:00: scheduled__2021-01-15T10:10:00+00:00, externally triggered: False>
+[2021-01-15 10:14:12,403] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-15 10:12:00+00:00: scheduled__2021-01-15T10:12:00+00:00, externally triggered: False>
+[2021-01-15 10:14:12,802] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/example.py took 10.078 seconds
+[2021-01-15 10:14:13,442] {scheduler_job.py:155} INFO - Started process (PID=36) to work on /opt/airflow/dags/example.py
+[2021-01-15 10:14:13,465] {scheduler_job.py:1572} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-15 10:14:13,486] {logging_mixin.py:112} INFO - [2021-01-15 10:14:13,484] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-15 10:14:14,816] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['D2020_Dashboard']) retrieved from /opt/airflow/dags/example.py
+[2021-01-15 10:14:16,241] {scheduler_job.py:1288} INFO - Processing D2020_Dashboard
+[2021-01-15 10:14:16,959] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-14 22:46:00+00:00: scheduled__2021-01-14T22:46:00+00:00, externally triggered: False>
+[2021-01-15 10:14:17,177] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-15 10:10:00+00:00: scheduled__2021-01-15T10:10:00+00:00, externally triggered: False>
+[2021-01-15 10:14:17,412] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-15 10:12:00+00:00: scheduled__2021-01-15T10:12:00+00:00, externally triggered: False>
+[2021-01-15 10:14:17,743] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/example.py took 4.301 seconds
+[2021-01-15 10:14:18,479] {scheduler_job.py:155} INFO - Started process (PID=45) to work on /opt/airflow/dags/example.py
+[2021-01-15 10:14:18,509] {scheduler_job.py:1572} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-15 10:14:18,515] {logging_mixin.py:112} INFO - [2021-01-15 10:14:18,514] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-15 10:14:20,217] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['D2020_Dashboard']) retrieved from /opt/airflow/dags/example.py
+[2021-01-15 10:14:21,709] {scheduler_job.py:1288} INFO - Processing D2020_Dashboard
+[2021-01-15 10:14:22,318] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-14 22:46:00+00:00: scheduled__2021-01-14T22:46:00+00:00, externally triggered: False>
+[2021-01-15 10:14:22,536] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-15 10:10:00+00:00: scheduled__2021-01-15T10:10:00+00:00, externally triggered: False>
+[2021-01-15 10:14:22,765] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-15 10:12:00+00:00: scheduled__2021-01-15T10:12:00+00:00, externally triggered: False>
+[2021-01-15 10:14:23,183] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/example.py took 4.704 seconds
+[2021-01-15 10:14:23,695] {scheduler_job.py:155} INFO - Started process (PID=50) to work on /opt/airflow/dags/example.py
+[2021-01-15 10:14:23,721] {scheduler_job.py:1572} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-15 10:14:23,743] {logging_mixin.py:112} INFO - [2021-01-15 10:14:23,743] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-15 10:14:26,095] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['D2020_Dashboard']) retrieved from /opt/airflow/dags/example.py
+[2021-01-15 10:14:27,918] {scheduler_job.py:1288} INFO - Processing D2020_Dashboard
+[2021-01-15 10:14:29,896] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-14 22:46:00+00:00: scheduled__2021-01-14T22:46:00+00:00, externally triggered: False>
+[2021-01-15 10:14:30,189] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-15 10:10:00+00:00: scheduled__2021-01-15T10:10:00+00:00, externally triggered: False>
+[2021-01-15 10:14:30,488] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-15 10:12:00+00:00: scheduled__2021-01-15T10:12:00+00:00, externally triggered: False>
+[2021-01-15 10:14:30,832] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/example.py took 7.136 seconds
+[2021-01-15 10:14:31,309] {scheduler_job.py:155} INFO - Started process (PID=59) to work on /opt/airflow/dags/example.py
+[2021-01-15 10:14:31,339] {scheduler_job.py:1572} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-15 10:14:31,344] {logging_mixin.py:112} INFO - [2021-01-15 10:14:31,343] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-15 10:14:34,590] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['D2020_Dashboard']) retrieved from /opt/airflow/dags/example.py
+[2021-01-15 10:14:35,686] {scheduler_job.py:1288} INFO - Processing D2020_Dashboard
+[2021-01-15 10:14:36,141] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-14 22:46:00+00:00: scheduled__2021-01-14T22:46:00+00:00, externally triggered: False>
+[2021-01-15 10:14:36,471] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-15 10:10:00+00:00: scheduled__2021-01-15T10:10:00+00:00, externally triggered: False>
+[2021-01-15 10:14:36,720] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-15 10:12:00+00:00: scheduled__2021-01-15T10:12:00+00:00, externally triggered: False>
+[2021-01-15 10:14:37,433] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/example.py took 6.123 seconds
+[2021-01-15 10:14:38,233] {scheduler_job.py:155} INFO - Started process (PID=68) to work on /opt/airflow/dags/example.py
+[2021-01-15 10:14:38,253] {scheduler_job.py:1572} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-15 10:14:38,255] {logging_mixin.py:112} INFO - [2021-01-15 10:14:38,255] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-15 10:14:39,252] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['D2020_Dashboard']) retrieved from /opt/airflow/dags/example.py
+[2021-01-15 10:14:40,091] {scheduler_job.py:1288} INFO - Processing D2020_Dashboard
+[2021-01-15 10:14:40,402] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-14 22:46:00+00:00: scheduled__2021-01-14T22:46:00+00:00, externally triggered: False>
+[2021-01-15 10:14:40,565] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-15 10:10:00+00:00: scheduled__2021-01-15T10:10:00+00:00, externally triggered: False>
+[2021-01-15 10:14:40,776] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-15 10:12:00+00:00: scheduled__2021-01-15T10:12:00+00:00, externally triggered: False>
+[2021-01-15 10:14:41,067] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/example.py took 2.833 seconds
+[2021-01-15 10:14:41,630] {scheduler_job.py:155} INFO - Started process (PID=77) to work on /opt/airflow/dags/example.py
+[2021-01-15 10:14:41,647] {scheduler_job.py:1572} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-15 10:14:41,650] {logging_mixin.py:112} INFO - [2021-01-15 10:14:41,650] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-15 10:14:42,390] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['D2020_Dashboard']) retrieved from /opt/airflow/dags/example.py
+[2021-01-15 10:14:43,392] {scheduler_job.py:1288} INFO - Processing D2020_Dashboard
+[2021-01-15 10:14:44,417] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-14 22:46:00+00:00: scheduled__2021-01-14T22:46:00+00:00, externally triggered: False>
+[2021-01-15 10:14:44,677] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-15 10:10:00+00:00: scheduled__2021-01-15T10:10:00+00:00, externally triggered: False>
+[2021-01-15 10:14:45,146] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-15 10:12:00+00:00: scheduled__2021-01-15T10:12:00+00:00, externally triggered: False>
+[2021-01-15 10:14:45,568] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/example.py took 3.939 seconds
+[2021-01-15 10:14:46,252] {scheduler_job.py:155} INFO - Started process (PID=82) to work on /opt/airflow/dags/example.py
+[2021-01-15 10:14:46,272] {scheduler_job.py:1572} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-15 10:14:46,277] {logging_mixin.py:112} INFO - [2021-01-15 10:14:46,276] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-15 10:14:47,087] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['D2020_Dashboard']) retrieved from /opt/airflow/dags/example.py
+[2021-01-15 10:14:48,130] {scheduler_job.py:1288} INFO - Processing D2020_Dashboard
+[2021-01-15 10:14:48,477] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-14 22:46:00+00:00: scheduled__2021-01-14T22:46:00+00:00, externally triggered: False>
+[2021-01-15 10:14:48,642] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-15 10:10:00+00:00: scheduled__2021-01-15T10:10:00+00:00, externally triggered: False>
+[2021-01-15 10:14:48,812] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-15 10:12:00+00:00: scheduled__2021-01-15T10:12:00+00:00, externally triggered: False>
+[2021-01-15 10:14:49,320] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/example.py took 3.068 seconds
+[2021-01-15 10:14:50,454] {scheduler_job.py:155} INFO - Started process (PID=91) to work on /opt/airflow/dags/example.py
+[2021-01-15 10:14:50,479] {scheduler_job.py:1572} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-15 10:14:50,499] {logging_mixin.py:112} INFO - [2021-01-15 10:14:50,499] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-15 10:14:52,863] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['D2020_Dashboard']) retrieved from /opt/airflow/dags/example.py
+[2021-01-15 10:14:54,056] {scheduler_job.py:1288} INFO - Processing D2020_Dashboard
+[2021-01-15 10:14:54,411] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-14 22:46:00+00:00: scheduled__2021-01-14T22:46:00+00:00, externally triggered: False>
+[2021-01-15 10:14:54,560] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-15 10:10:00+00:00: scheduled__2021-01-15T10:10:00+00:00, externally triggered: False>
+[2021-01-15 10:14:54,783] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-15 10:12:00+00:00: scheduled__2021-01-15T10:12:00+00:00, externally triggered: False>
+[2021-01-15 10:14:55,118] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/example.py took 4.676 seconds
+[2021-01-15 10:14:55,562] {scheduler_job.py:155} INFO - Started process (PID=96) to work on /opt/airflow/dags/example.py
+[2021-01-15 10:14:55,570] {scheduler_job.py:1572} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-15 10:14:55,580] {logging_mixin.py:112} INFO - [2021-01-15 10:14:55,576] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-15 10:14:58,348] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['D2020_Dashboard']) retrieved from /opt/airflow/dags/example.py
+[2021-01-15 10:14:59,526] {scheduler_job.py:1288} INFO - Processing D2020_Dashboard
+[2021-01-15 10:15:00,222] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-14 22:46:00+00:00: scheduled__2021-01-14T22:46:00+00:00, externally triggered: False>
+[2021-01-15 10:15:00,464] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-15 10:10:00+00:00: scheduled__2021-01-15T10:10:00+00:00, externally triggered: False>
+[2021-01-15 10:15:01,081] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-15 10:12:00+00:00: scheduled__2021-01-15T10:12:00+00:00, externally triggered: False>
+[2021-01-15 10:15:01,427] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/example.py took 5.865 seconds
+[2021-01-15 10:15:01,599] {scheduler_job.py:155} INFO - Started process (PID=105) to work on /opt/airflow/dags/example.py
+[2021-01-15 10:15:01,624] {scheduler_job.py:1572} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-15 10:15:01,635] {logging_mixin.py:112} INFO - [2021-01-15 10:15:01,633] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-15 10:15:02,996] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['D2020_Dashboard']) retrieved from /opt/airflow/dags/example.py
+[2021-01-15 10:15:04,227] {scheduler_job.py:1288} INFO - Processing D2020_Dashboard
+[2021-01-15 10:15:04,795] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-14 22:46:00+00:00: scheduled__2021-01-14T22:46:00+00:00, externally triggered: False>
+[2021-01-15 10:15:04,992] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-15 10:10:00+00:00: scheduled__2021-01-15T10:10:00+00:00, externally triggered: False>
+[2021-01-15 10:15:05,260] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-15 10:12:00+00:00: scheduled__2021-01-15T10:12:00+00:00, externally triggered: False>
+[2021-01-15 10:15:05,593] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/example.py took 3.994 seconds
+[2021-01-15 10:15:05,913] {scheduler_job.py:155} INFO - Started process (PID=114) to work on /opt/airflow/dags/example.py
+[2021-01-15 10:15:05,929] {scheduler_job.py:1572} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-15 10:15:05,940] {logging_mixin.py:112} INFO - [2021-01-15 10:15:05,939] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-15 10:15:07,313] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['D2020_Dashboard']) retrieved from /opt/airflow/dags/example.py
+[2021-01-15 10:15:08,517] {scheduler_job.py:1288} INFO - Processing D2020_Dashboard
+[2021-01-15 10:15:09,082] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-14 22:46:00+00:00: scheduled__2021-01-14T22:46:00+00:00, externally triggered: False>
+[2021-01-15 10:15:10,468] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-15 10:10:00+00:00: scheduled__2021-01-15T10:10:00+00:00, externally triggered: False>
+[2021-01-15 10:15:10,755] {scheduler_job.py:771} INFO - Examining DAG run <DagRun D2020_Dashboard @ 2021-01-15 10:12:00+00:00: scheduled__2021-01-15T10:12:00+00:00, externally triggered: False>
+[2021-01-15 10:15:13,654] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/example.py took 7.742 seconds
+[2021-01-15 10:15:14,317] {scheduler_job.py:155} INFO - Started process (PID=123) to work on /opt/airflow/dags/example.py
+[2021-01-15 10:15:14,420] {scheduler_job.py:1572} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-15 10:15:14,435] {logging_mixin.py:112} INFO - [2021-01-15 10:15:14,432] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-15 10:15:19,007] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['D2020_Dashboard']) retrieved from /opt/airflow/dags/example.py
+[2021-01-15 10:15:20,140] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/example.py took 5.824 seconds
+[2021-01-15 10:15:20,387] {scheduler_job.py:155} INFO - Started process (PID=128) to work on /opt/airflow/dags/example.py
+[2021-01-15 10:15:20,419] {scheduler_job.py:1572} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-15 10:15:20,433] {logging_mixin.py:112} INFO - [2021-01-15 10:15:20,432] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-15 10:15:23,429] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['D2020_Dashboard']) retrieved from /opt/airflow/dags/example.py
+[2021-01-15 10:15:24,528] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/example.py took 4.141 seconds
+[2021-01-15 10:15:25,651] {scheduler_job.py:155} INFO - Started process (PID=137) to work on /opt/airflow/dags/example.py
+[2021-01-15 10:15:25,677] {scheduler_job.py:1572} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-15 10:15:25,679] {logging_mixin.py:112} INFO - [2021-01-15 10:15:25,678] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-15 10:15:26,624] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['D2020_Dashboard']) retrieved from /opt/airflow/dags/example.py
+[2021-01-15 10:15:27,597] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/example.py took 1.946 seconds
+[2021-01-15 10:15:27,688] {scheduler_job.py:155} INFO - Started process (PID=142) to work on /opt/airflow/dags/example.py
+[2021-01-15 10:15:27,698] {scheduler_job.py:1572} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-15 10:15:27,702] {logging_mixin.py:112} INFO - [2021-01-15 10:15:27,701] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-15 10:15:28,378] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['D2020_Dashboard']) retrieved from /opt/airflow/dags/example.py
+[2021-01-15 10:15:29,231] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/example.py took 1.543 seconds
+[2021-01-15 10:15:29,690] {scheduler_job.py:155} INFO - Started process (PID=147) to work on /opt/airflow/dags/example.py
+[2021-01-15 10:15:29,702] {scheduler_job.py:1572} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-15 10:15:29,705] {logging_mixin.py:112} INFO - [2021-01-15 10:15:29,705] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-15 10:15:30,310] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['D2020_Dashboard']) retrieved from /opt/airflow/dags/example.py
+[2021-01-15 10:15:31,095] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/example.py took 1.405 seconds
+[2021-01-15 10:15:31,698] {scheduler_job.py:155} INFO - Started process (PID=152) to work on /opt/airflow/dags/example.py
+[2021-01-15 10:15:31,704] {scheduler_job.py:1572} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-15 10:15:31,707] {logging_mixin.py:112} INFO - [2021-01-15 10:15:31,706] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-15 10:15:32,134] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['D2020_Dashboard']) retrieved from /opt/airflow/dags/example.py
+[2021-01-15 10:15:32,838] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/example.py took 1.141 seconds
+[2021-01-15 10:15:33,734] {scheduler_job.py:155} INFO - Started process (PID=157) to work on /opt/airflow/dags/example.py
+[2021-01-15 10:15:33,766] {scheduler_job.py:1572} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-01-15 10:15:33,771] {logging_mixin.py:112} INFO - [2021-01-15 10:15:33,771] {dagbag.py:417} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-01-15 10:15:33,984] {scheduler_job.py:423} INFO - Exiting gracefully upon receiving signal 15
+[2021-01-15 10:15:33,990] {scheduler_job.py:423} INFO - Exiting gracefully upon receiving signal 15
+[2021-01-15 10:15:34,314] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['D2020_Dashboard']) retrieved from /opt/airflow/dags/example.py
+[2021-01-15 10:15:35,124] {scheduler_job.py:163} INFO - Processing /opt/airflow/dags/example.py took 1.390 seconds

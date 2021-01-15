@@ -8,10 +8,11 @@ default_args = {
     'user':'Ollie',
     'start_date':days_ago(1),
     'email':['owills@c40.org'],
-    'email_on_failure': True
+    'email_on_failure': True,
+    'email_on_success': True
 }
 
-with DAG('D2020_Dashboard',schedule_interval='5 * * * *',catchup=False,default_args=default_args, concurrency=1, max_active_runs=1) as dag:
+with DAG('D2020_Dashboard',schedule_interval='*/2 * * * *',catchup=False,default_args=default_args) as dag:
 
     t1 = PythonOperator(
             task_id = 'test',

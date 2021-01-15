@@ -1,0 +1,30 @@
+[2021-01-15 10:15:18,322] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: D2020_Dashboard.test 2021-01-14T22:46:00+00:00 [queued]>
+[2021-01-15 10:15:18,570] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: D2020_Dashboard.test 2021-01-14T22:46:00+00:00 [queued]>
+[2021-01-15 10:15:19,541] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: D2020_Dashboard.test 2021-01-14T22:46:00+00:00 [queued]>
+[2021-01-15 10:15:19,556] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2021-01-15 10:15:19,587] {taskinstance.py:881} INFO - Starting attempt 1 of 1
+[2021-01-15 10:15:19,595] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2021-01-15 10:15:20,182] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: D2020_Dashboard.test 2021-01-14T22:46:00+00:00 [queued]>
+[2021-01-15 10:15:20,189] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2021-01-15 10:15:20,284] {taskinstance.py:881} INFO - Starting attempt 1 of 1
+[2021-01-15 10:15:20,322] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2021-01-15 10:15:20,570] {taskinstance.py:901} INFO - Executing <Task(PythonOperator): test> on 2021-01-14T22:46:00+00:00
+[2021-01-15 10:15:20,689] {taskinstance.py:901} INFO - Executing <Task(PythonOperator): test> on 2021-01-14T22:46:00+00:00
+[2021-01-15 10:15:20,662] {standard_task_runner.py:54} INFO - Started process 72 to run task
+[2021-01-15 10:15:20,936] {standard_task_runner.py:54} INFO - Started process 74 to run task
+[2021-01-15 10:15:23,215] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'D2020_Dashboard', 'test', '2021-01-14T22:46:00+00:00', '--job_id', '98', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/example.py', '--cfg_path', '/tmp/tmp85xnedvy']
+[2021-01-15 10:15:23,225] {standard_task_runner.py:78} INFO - Job 98: Subtask test
+[2021-01-15 10:15:23,267] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'D2020_Dashboard', 'test', '2021-01-14T22:46:00+00:00', '--job_id', '99', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/example.py', '--cfg_path', '/tmp/tmpkdp9jir0']
+[2021-01-15 10:15:23,276] {standard_task_runner.py:78} INFO - Job 99: Subtask test
+[2021-01-15 10:15:25,333] {logging_mixin.py:112} INFO - Running <TaskInstance: D2020_Dashboard.test 2021-01-14T22:46:00+00:00 [running]> on host 79ecd04028bf
+[2021-01-15 10:15:25,356] {logging_mixin.py:112} INFO - Running <TaskInstance: D2020_Dashboard.test 2021-01-14T22:46:00+00:00 [running]> on host 79ecd04028bf
+[2021-01-15 10:15:26,460] {logging_mixin.py:112} INFO - hello
+[2021-01-15 10:15:26,464] {python_operator.py:114} INFO - Done. Returned value was: None
+[2021-01-15 10:15:26,512] {logging_mixin.py:112} INFO - hello
+[2021-01-15 10:15:26,515] {python_operator.py:114} INFO - Done. Returned value was: None
+[2021-01-15 10:15:26,755] {taskinstance.py:1070} INFO - Marking task as SUCCESS.dag_id=D2020_Dashboard, task_id=test, execution_date=20210114T224600, start_date=20210115T101518, end_date=20210115T101526
+[2021-01-15 10:15:26,880] {taskinstance.py:1070} INFO - Marking task as SUCCESS.dag_id=D2020_Dashboard, task_id=test, execution_date=20210114T224600, start_date=20210115T101518, end_date=20210115T101526

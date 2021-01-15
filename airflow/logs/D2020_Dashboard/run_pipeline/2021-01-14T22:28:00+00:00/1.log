@@ -1,0 +1,20 @@
+[2021-01-14 22:30:18,308] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: D2020_Dashboard.run_pipeline 2021-01-14T22:28:00+00:00 [queued]>
+[2021-01-14 22:30:18,711] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: D2020_Dashboard.run_pipeline 2021-01-14T22:28:00+00:00 [queued]>
+[2021-01-14 22:30:18,713] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2021-01-14 22:30:18,715] {taskinstance.py:881} INFO - Starting attempt 1 of 1
+[2021-01-14 22:30:18,717] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2021-01-14 22:30:18,990] {taskinstance.py:901} INFO - Executing <Task(PythonOperator): run_pipeline> on 2021-01-14T22:28:00+00:00
+[2021-01-14 22:30:19,003] {standard_task_runner.py:54} INFO - Started process 124 to run task
+[2021-01-14 22:30:19,143] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'D2020_Dashboard', 'run_pipeline', '2021-01-14T22:28:00+00:00', '--job_id', '82', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/example.py', '--cfg_path', '/tmp/tmpl___8n3l']
+[2021-01-14 22:30:19,154] {standard_task_runner.py:78} INFO - Job 82: Subtask run_pipeline
+[2021-01-14 22:30:24,777] {logging_mixin.py:112} INFO - Running <TaskInstance: D2020_Dashboard.run_pipeline 2021-01-14T22:28:00+00:00 [running]> on host cc35811f9a97
+[2021-01-14 22:30:25,809] {logging_mixin.py:112} INFO -    A  B
+0  1  1
+1  2  2
+2  3  3
+[2021-01-14 22:30:25,813] {logging_mixin.py:112} INFO - hello
+[2021-01-14 22:30:25,827] {python_operator.py:114} INFO - Done. Returned value was: None
+[2021-01-14 22:30:26,074] {taskinstance.py:1070} INFO - Marking task as SUCCESS.dag_id=D2020_Dashboard, task_id=run_pipeline, execution_date=20210114T222800, start_date=20210114T223018, end_date=20210114T223026
+[2021-01-14 22:30:30,716] {local_task_job.py:102} INFO - Task exited with return code 0
